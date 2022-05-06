@@ -1,0 +1,1 @@
+`data/raw` contains source, unprepared data that cannot be used to build and test ML prediction pipelines. Using raw data we can create datasets.

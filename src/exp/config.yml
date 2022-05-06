@@ -1,0 +1,25 @@
+paths:
+  data: 
+    raw: 'data/raw/'
+    prepared: 'data/prepared/'
+    xy_prepared: 'data/prepared/xy_prepared.csv'
+    transformed: 'data/transformed/'
+    x_transformed: 'data/transformed/x_transformed.csv'
+    y_transformed: 'data/transformed/y_transformed.csv'
+    train: 'data/train/'
+    test: 'data/test/'
+    x_train: 'data/train/x_train.csv'
+    x_test: 'data/test/x_test.csv'
+    y_train: 'data/train/y_train.csv'
+    y_test: 'data/test/y_test.csv'
+  model:
+    root: 'model/'
+    trained_model: 'model/trained_model.pkl'
+  logs: 'logs/'
+    
+
+splitter:        
+  test_size: 0.3 
+  split_seed: 42
+
+
